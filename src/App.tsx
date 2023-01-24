@@ -1,7 +1,9 @@
+import { Nav } from "./components/Nav";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="md:text-3xl font-bold underline">Hello world!</h1>
+      <Nav />
     </div>
   );
 }
