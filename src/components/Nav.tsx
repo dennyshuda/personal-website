@@ -5,7 +5,7 @@ export function Nav() {
   const [dark, setDark] = useState(false);
   return (
     <nav
-      className={`py-5 fixed left-0 top-0 w-full z-50 dark:text-white ${
+      className={`py-5 fixed left-0 top-0 w-full z-50 dark:text-white bg-[##fbfafb] ${
         dark && "dark"
       }`}
     >
