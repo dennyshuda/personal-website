@@ -61,11 +61,17 @@ export function About() {
                 <p>24/7</p>
               </section>
             </div>
-            <p>
+            <p className="text-center md:text-left">
               Hi, my name is Denny. I love to solve the problem and implement
               idea with design and code. Interest to explore different styles of
               design and follow the design and technology trends for frontend
-              development.
+              development. I have experience in a variety of front-end
+              technologies such as HTML, CSS, JavaScript, TypeScript, and React.
+              I am skilled in creating responsive designs that adapt to
+              different screen sizes and devices, and I am well-versed in
+              optimizing web pages for speed and user experience. I have
+              experience working with modern front-end libraries and frameworks
+              such as React.js.
             </p>
           </div>
         </div>
