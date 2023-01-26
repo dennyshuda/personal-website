@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 
 export function About() {
   return (
-    <div className="dark:bg-[#0C151D] dark:text-white -my-1">
+    <div className="dark:bg-[#0C151D] dark:text-white -my-1 py-5">
       <Container>
         <div className="mb-10 md:w-3/12 border-b-4 border-primary py-2">
           <h1 className="text-3xl font-bold">
