@@ -2,7 +2,7 @@ import denny from "../assets/denny.png";
 
 export function Header() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center space-y-5 text-secondary dark:text-white bg-[#FBFAFB]">
+    <div className="h-screen flex flex-col justify-center items-center space-y-5 text-secondary dark:text-white dark:bg-[#0C151D] bg-[#FBFAFB]">
       <div className="md:w-3/12 w-6/12 text-center">
         <img
           className="inline-block border-4 p-1 border-primary rounded-full"
@@ -25,7 +25,7 @@ export function Header() {
       <div className="flex gap-5">
         <a href="https://www.instagram.com/dennyshuda/" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
             width="55"
             height="55"
             viewBox="0 0 55 55"
@@ -37,7 +37,7 @@ export function Header() {
         </a>
         <a href="https://www.linkedin.com/in/dennyshuda" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
             width="56"
             height="56"
             viewBox="0 0 56 56"
@@ -51,7 +51,7 @@ export function Header() {
 
         <a href="https://github.com/dennyshuda/" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
             width="55"
             height="55"
             viewBox="0 0 55 55"
