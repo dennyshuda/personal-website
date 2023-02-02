@@ -17,12 +17,12 @@ export function Nav() {
     }
   }, [dark]);
   return (
-    <nav className="py-5 fixed left-0 top-0 w-full z-50 dark:text-white dark:bg-[#0C151D] bg-[#fbfafb]">
+    <nav className="py-5 fixed left-0 top-0 w-full z-50 text-secondaryLight dark:text-secondaryDark dark:bg-darkBackground bg-[#fcfcfc]">
       <Container>
         <div className="flex items-center justify-between">
           <div>
             <a className="font-bold text-xl" href="/">
-              Denny
+              denny
             </a>
           </div>
           <div>
@@ -30,9 +30,9 @@ export function Nav() {
               {dark ? (
                 <svg
                   onClick={() => setDark(!dark)}
-                  className="inline-block hover:cursor-pointer dark:fill-white"
-                  width="37"
-                  height="37"
+                  className="inline-block hover:cursor-pointer dark:fill-primaryDark"
+                  width="25"
+                  height="25"
                   viewBox="0 0 39 39"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ export function Nav() {
                 <svg
                   onClick={() => setDark(!dark)}
                   className="inline-block hover:cursor-pointer"
-                  width="37"
-                  height="37"
+                  width="25"
+                  height="25"
                   viewBox="0 0 37 37"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,12 +62,6 @@ export function Nav() {
                   </defs>
                 </svg>
               )}
-              <a
-                className="font-bold text-white py-2 px-5 rounded-md bg-primary"
-                href=""
-              >
-                Resume
-              </a>
             </ul>
           </div>
         </div>
