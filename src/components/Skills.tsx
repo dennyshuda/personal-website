@@ -18,12 +18,12 @@ export function Skills() {
       <Container>
         <div className="mb-10 md:w-3/12 border-b-4 dark:border-primaryDark border-secondaryLight py-2">
           <h1 className="text-3xl font-bold">
-            SKILLS{" "}
+            MY{" "}
             <span className="dark:text-secondaryDark text-secondaryLight">
-              ME
+              SKILLS
             </span>
           </h1>
-          <h3>My Introduction</h3>
+          <h3>My Technologies</h3>
         </div>
         <div className="flex gap-5 flex-wrap justify-center md:justify-between text-secondaryLight dark:text-primaryDark">
           <div className="shadow-md transition-all delay-75 hover:border-2 hover:scale-110 text-8xl rounded-3xl p-5">
