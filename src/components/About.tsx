@@ -3,23 +3,30 @@ import about from "../assets/about.png";
 
 export function About() {
   return (
-    <div className="dark:bg-[#0C151D] dark:text-white -my-1 py-5">
+    <div className="dark:bg-darkBackground text-primaryLight dark:text-primaryDark -my-1 py-5">
       <Container>
-        <div className="mb-10 md:w-3/12 border-b-4 border-primary py-2">
+        <div className="mb-10 md:w-3/12 border-b-4 dark:border-primaryDark border-secondaryLight py-2">
           <h1 className="text-3xl font-bold">
-            About <span className="text-primary">Me</span>
+            ABOUT{" "}
+            <span className="dark:text-secondaryDark text-secondaryLight">
+              ME
+            </span>
           </h1>
           <h3>My Introduction</h3>
         </div>
         <div className="flex flex-col md:flex-row gap-10">
           <div className="md:w-5/12">
-            <img className="w-full" src={about} alt="Denny Setyawan Huda" />
+            <img
+              className="w-full rounded-lg"
+              src={about}
+              alt="Denny Setyawan Huda"
+            />
           </div>
           <div className="md:w-7/12">
             <div className="flex flex-col gap-y-4 md:flex-row md:justify-between mb-10 text-sm">
-              <section className="md:w-3/12 border-2 border-[#0C151D] dark:border-white text-center py-5 px-2 rounded-md">
+              <section className="md:w-3/12 border-2 border-secondaryLight dark:border-primaryDark text-center py-5 px-2 rounded-md">
                 <svg
-                  className="inline-block fill-[#2C2C2C] dark:fill-white"
+                  className="inline-block fill-primaryLight dark:fill-primaryDark"
                   width="18"
                   height="25"
                   viewBox="0 0 18 25"
@@ -32,9 +39,9 @@ export function About() {
                 <p> &lt; 1 Years</p>
               </section>
 
-              <section className="md:w-3/12 border-2 border-[#0C151D] dark:border-white text-center py-5 px-2 rounded-md">
+              <section className="md:w-3/12 border-2 border-secondaryLight dark:border-primaryDark text-center py-5 px-2 rounded-md">
                 <svg
-                  className="inline-block fill-[#2C2C2C] dark:fill-white"
+                  className="inline-block fill-primaryLight dark:fill-primaryDark"
                   width="23"
                   height="20"
                   viewBox="0 0 23 20"
@@ -46,9 +53,9 @@ export function About() {
                 <h1>Completed</h1>
                 <p> 10+ Projects</p>
               </section>
-              <section className="md:w-3/12 border-2 border-[#0C151D] dark:border-white text-center py-5 px-2 rounded-md">
+              <section className="md:w-3/12 border-2 border-secondaryLight dark:border-primaryDark text-center py-5 px-2 rounded-md">
                 <svg
-                  className="inline-block fill-[#2C2C2C] dark:fill-white"
+                  className="inline-block fill-primaryLight dark:fill-primaryDark"
                   width="22"
                   height="23"
                   viewBox="0 0 22 23"
