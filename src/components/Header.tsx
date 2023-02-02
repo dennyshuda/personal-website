@@ -1,31 +1,28 @@
 import denny from "../assets/denny.png";
+import { Type } from "./Type";
 
 export function Header() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center space-y-5 text-secondary dark:text-white dark:bg-[#0C151D] bg-[#FBFAFB]">
-      <div className="md:w-3/12 w-6/12 text-center">
-        <img
-          className="inline-block border-4 p-1 border-primary rounded-full"
-          src={denny}
-          alt="Denny Setyawan Huda"
-        />
-      </div>
+    <div className="h-screen flex flex-col justify-center items-center text-primaryLight dark:text-white dark:bg-darkBackground bg-[#FBFAFB]">
       <div className="xl:w-6/12 text-center">
-        <h1 className="md:text-6xl text-3xl font-bold text-primary">
-          Denny Setyawan Huda
+        <h1 className="md:text-6xl text-3xl font-bold text-secondaryLight dark:text-secondaryDark">
+          <span className="dark:text-primaryDark text-primaryLight">
+            Denny{" "}
+          </span>
+          Setyawan Huda
         </h1>
       </div>
-      <h3 className="xl:text-2xl text-xl font-bold">Frontend Developer</h3>
-      <div className="lg:w-4/12 w-10/12 text-center">
-        <p className="md:text-xl">
+      <Type />
+      <div className="lg:w-6/12 w-10/12 text-center">
+        <p className="md:text-xl font-medium dark:text-primaryDark">
           Hi, my name is Denny. I'm Frontend Developer based in Indonesia, and
           I'm very passionate to write a code and dedicated to my work.
         </p>
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-5 mt-10">
         <a href="https://www.instagram.com/dennyshuda/" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-primaryDark hover:fill-secondaryLight"
             width="55"
             height="55"
             viewBox="0 0 55 55"
@@ -37,7 +34,7 @@ export function Header() {
         </a>
         <a href="https://www.linkedin.com/in/dennyshuda" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-primaryDark hover:fill-secondaryLight"
             width="56"
             height="56"
             viewBox="0 0 56 56"
@@ -51,7 +48,7 @@ export function Header() {
 
         <a href="https://github.com/dennyshuda/" target={"_blank"}>
           <svg
-            className="relative hover:bottom-2 fill-[#333233] dark:fill-white hover:fill-primary"
+            className="relative hover:bottom-2 fill-[#333233] dark:fill-primaryDark hover:fill-secondaryLight"
             width="55"
             height="55"
             viewBox="0 0 55 55"
@@ -61,6 +58,17 @@ export function Header() {
             <path d="M27.4785 4.09815C14.1958 4.09278 3.4375 14.8457 3.4375 28.1177C3.4375 38.6128 10.1675 47.5342 19.54 50.8106C20.8022 51.1274 20.6089 50.2305 20.6089 49.6182V45.4556C13.3203 46.3096 13.0249 41.4863 12.5361 40.6807C11.5479 38.9941 9.21143 38.5645 9.90967 37.7588C11.5693 36.9048 13.2612 37.9736 15.2217 40.8687C16.6396 42.9688 19.4058 42.6143 20.8076 42.2651C21.1138 41.0029 21.769 39.875 22.6714 38.9995C15.1196 37.646 11.9722 33.0376 11.9722 27.5591C11.9722 24.9004 12.8477 22.4565 14.5664 20.4854C13.4707 17.2358 14.6685 14.4536 14.8296 14.04C17.9502 13.7607 21.1943 16.2744 21.4468 16.4731C23.2192 15.9951 25.2441 15.7427 27.5107 15.7427C29.7881 15.7427 31.8184 16.0059 33.6069 16.4893C34.2139 16.0273 37.2217 13.8682 40.1221 14.1314C40.2778 14.5449 41.4487 17.2627 40.4175 20.4692C42.1577 22.4458 43.0439 24.9111 43.0439 27.5752C43.0439 33.0645 39.875 37.6782 32.3018 39.0103C32.9504 39.6482 33.4655 40.409 33.8168 41.2482C34.1682 42.0874 34.3488 42.9882 34.3481 43.898V49.9404C34.3911 50.4238 34.3481 50.9019 35.1538 50.9019C44.666 47.6953 51.5142 38.7095 51.5142 28.123C51.5142 14.8457 40.7505 4.09815 27.4785 4.09815Z" />
           </svg>
         </a>
+      </div>
+      <div>
+        {/* <a
+          href="/"
+          className="py-3 px-6 relative h-12 w-48 overflow-hidden rounded-sm bg-transparent inline-block text-center border-2 dark:border-primaryDark text-xl group"
+        >
+          <div className="absolute inset-0 w-0 bg-primaryDark transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+          <span className="relative text-primaryLight dark:text-primaryDark group-hover:text-white">
+            Resume
+          </span>
+        </a> */}
       </div>
     </div>
   );
