@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container } from "./Container";
 
 export function Nav() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     switch (dark) {
