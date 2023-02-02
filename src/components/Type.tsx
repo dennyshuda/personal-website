@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 export function Type() {
   return (
-    <div className="text-3xl font-bold my-10 dark:text-primaryDark">
+    <div className="md:text-3xl text-xl font-bold my-10 dark:text-primaryDark">
       <Typewriter
         options={{
           strings: [
