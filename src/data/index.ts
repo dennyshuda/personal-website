@@ -26,4 +26,13 @@ export const ProjectData = [
     github: "https://github.com/dennyshuda/weather-app",
     demo: "https://weather-app-denny.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Todo App",
+    imgUrl: "./projects/todoapp.png",
+    description:
+      "Todo App is a simple website to record daily activities so we don't forget",
+    github: "https://github.com/dennyshuda/weather-app",
+    demo: "https://weather-app-denny.vercel.app/",
+  },
 ];
