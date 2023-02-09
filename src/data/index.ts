@@ -32,7 +32,7 @@ export const ProjectData = [
     imgUrl: "./projects/todoapp.png",
     description:
       "Todo App is a simple website to record daily activities so we don't forget",
-    github: "https://github.com/dennyshuda/weather-app",
-    demo: "https://weather-app-denny.vercel.app/",
+    github: "https://github.com/dennyshuda/todo-app",
+    demo: "https://todo-app-denny.vercel.app/",
   },
 ];
