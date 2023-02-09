@@ -8,6 +8,7 @@ import {
   SiNodedotjs,
   SiBootstrap,
   SiGithub,
+  SiFigma,
 } from "react-icons/si";
 import { SiHtml5, SiTailwindcss } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
@@ -42,7 +43,7 @@ export function Skills() {
             <SiGit />
           </div>
           <div className="shadow-md transition-all delay-75 hover:border-2 hover:scale-110 text-8xl rounded-3xl p-5">
-            <SiBootstrap />
+            <SiFigma />
           </div>
           <div className="shadow-md transition-all delay-75 hover:border-2 hover:scale-110 text-8xl rounded-3xl p-5">
             <SiReact />
