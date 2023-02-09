@@ -15,7 +15,7 @@ export function Projects() {
           </h1>
           <h3>Recent works</h3>
         </div>
-        <div className="flex justify-center items-center gap-5 flex-col-reverse flex-wrap md:flex-row-reverse">
+        <div className="flex justify-center items-center gap-5 flex-wrap">
           {ProjectData.map((item) => {
             return (
               <div
