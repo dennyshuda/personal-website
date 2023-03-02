@@ -35,4 +35,13 @@ export const ProjectData = [
     github: "https://github.com/dennyshuda/todo-app",
     demo: "https://todo-app-denny.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Agency",
+    imgUrl: "./projects/agency.png",
+    description:
+      "Landing page online course features a captivating hero section with an illustration.",
+    github: "https://github.com/dennyshuda/agency",
+    demo: "https://agency-denny.vercel.app/",
+  },
 ];
