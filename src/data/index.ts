@@ -40,8 +40,17 @@ export const ProjectData = [
     title: "Agency",
     imgUrl: "./projects/agency.png",
     description:
-      "Landing page online course features a captivating hero section with an illustration.",
+      "Agency landing page with a modern and clean layout features a striking hero section.",
     github: "https://github.com/dennyshuda/agency",
     demo: "https://agency-denny.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Suxz",
+    imgUrl: "./projects/suxz.png",
+    description:
+      "Landing page online course features a captivating hero section with an illustration.",
+    github: "https://github.com/dennyshuda/suxz",
+    demo: "https://suxz.vercel.app/",
   },
 ];
